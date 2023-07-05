@@ -1,0 +1,163 @@
+body{
+  min-width: 650px;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+    overflow: hidden;
+    
+  }
+  
+  .sidebar {
+    float: left;
+    width: 170px;
+    color: #f5f8fa;
+    height: 608px;
+    background-color: rgba(14,27,82,255);
+    padding: 20px;
+  }
+  .navtag{
+    color: #5f9ecf; 
+    font-size:10px; 
+    font-weight:900; 
+    padding-top:30px;
+  }
+  .navstarter{
+    font-size: 12px;
+    padding-left: 20px;
+
+  }
+  .rf{
+    text-decoration: none;
+    color: #f5f8fa;
+  }
+  .st{
+    padding-top: 10px;
+  }
+  .cards{
+    background-color: #fefefe;
+    font-size: 10px;
+    width: 110px;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    border-radius:1px;
+  }
+  .c1{
+    width: 10px;
+    float:left;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+  }
+  .c2{
+    width: 20px;
+    float: left;
+    
+    padding-left: 28px;
+  }
+
+  .navbutton{
+    background-color: #212d69;
+    
+    padding: 10px;
+   
+    margin-top: 60px;
+
+    border-radius: 7px;
+  }
+
+  .header{
+    float: right;
+  }
+
+  .main {
+    margin-left: 200px;
+    padding: 20px;
+    height: 100%;
+    padding-bottom: 400px;
+    background-color: #f4f7ff;
+    color: #2b3f63;
+  }
+  .graphs{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .gr1{
+    width: 40%;
+    float: left;
+  }
+  .gr2{
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+    padding-bottom:18px;
+    background-color: #fefefe;
+  }
+  .message{
+    width: 270px;
+  }
+  .pic{
+    width: 15%;
+    margin-left: 30px;
+    float: left;
+  }
+  .detail{
+    width: 60%;
+    margin-left: 10px;
+    float: left;
+  }
+  .name{
+    font-weight: 500;
+    font-size: 20px;
+    color: #687088;
+    margin-left: 10px;
+  }
+  .text{
+    font-weight: 200;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #a6a6b8;
+  }
+
+  
+  /* Media query to hide sidebar on small screens */
+  @media (max-width: 851px) {
+    .cards{
+      margin-right: 30px;
+    }
+    .sidebar {
+      display: none;
+    }
+    .body{
+      min-width: 600px;
+    }
+    .main {
+      margin-left: 0;
+      width: 100%;
+    }
+    .header{
+      padding-right: 30px;
+    }
+ 
+    
+  }
+  
+
+  
+  
+  @media (max-width: 971px) {
+  
+    .cards{
+      margin-right: 10px;
+    }
+  
+  }
+  
+ 
